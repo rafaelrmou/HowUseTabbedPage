@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HowUseTabbedPage.MinhasAbasXaml">
+  <TabbedPage.Children>
+    <ContentPage Title="1ª Aba" Icon="icon.png">
+      <StackLayout>
+        <Label Text="Primeira Aba" FontSize="18" TextColor="Green" FontFamily="HelveticaNeue-Medium"></Label>
+      </StackLayout>
+    </ContentPage>
+    <ContentPage Title="2ª Aba" Icon="icon.png" />
+    <ContentPage Title="3ª Aba" Icon="icon.png" />
+    <ContentPage Title="4ª Aba" Icon="icon.png" />
+    <ContentPage Title="5ª Aba" Icon="icon.png" />
+    <ContentPage Title="6ª Aba" Icon="icon.png" />
+  </TabbedPage.Children>
+</TabbedPage>
